@@ -146,7 +146,7 @@
             "Key": "b03d19ea-45d5-4985-9469-1997ebf79e57",
             "Value": {
                 "id": "77399aa1-f66d-481b-b043-7cad133cddb6",
-                "resourcePath": "scripts\\Collisions\\Collisions.yy",
+                "resourcePath": "scripts\\script0\\script0.yy",
                 "resourceType": "GMScript"
             }
         },
