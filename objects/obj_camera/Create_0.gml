@@ -1,3 +1,10 @@
+global.resolutionwidth = 1920;// Change this for your width in px
+global.resolutionheight = 1080;// Change this for your height in px
+global.xcenter = global.resolutionwidth/2 // allows a gui to focus to be scalable centered if referenced
+global.ycenter = global.resolutionheight/2 // same as above
+window_set_size(global.resolutionwidth,global.resolutionheight);
+display_set_gui_size(global.resolutionwidth,global.resolutionheight);
+
 //Enable the use of views
 view_enabled = true;
 
