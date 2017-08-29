@@ -7,3 +7,4 @@ if(place_meeting(x,y,obj_player)){
 }
 
 xskew = lerp(xskew,target_xskew,0.2);
+//some reason grass hates me? 
