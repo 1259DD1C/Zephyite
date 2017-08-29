@@ -314,7 +314,7 @@
             "Key": "e0882a76-4c4f-4d82-9c22-25c9789562b2",
             "Value": {
                 "id": "02228fba-68cb-4fb3-ad6f-020f4be6607d",
-                "resourcePath": "objects\\obj_playerTESTING\\obj_playerTESTING.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
