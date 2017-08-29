@@ -306,7 +306,7 @@
             "Key": "da305ac1-ad67-4a20-9325-7c325f77212c",
             "Value": {
                 "id": "7be19cfc-3361-47b7-837e-c172cd3a6b6d",
-                "resourcePath": "tilesets\\t_collisions\\t_collisions.yy",
+                "resourcePath": "tilesets\\t_collision\\t_collision.yy",
                 "resourceType": "GMTileSet"
             }
         },
