@@ -218,7 +218,7 @@
             "Key": "b03d19ea-45d5-4985-9469-1997ebf79e57",
             "Value": {
                 "id": "77399aa1-f66d-481b-b043-7cad133cddb6",
-                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourcePath": "scripts\\move_and_contact_tiles\\move_and_contact_tiles.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -236,6 +236,14 @@
                 "id": "20787b86-dce9-4535-a305-b273bfe7a4bc",
                 "resourcePath": "views\\ba1b29d5-5937-4269-a1d3-90e2247eb3d6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd5ee22f-68e5-42be-b35f-16ac7c131860",
+            "Value": {
+                "id": "21c560dd-cf9b-49fe-a9f0-021ee359a5db",
+                "resourcePath": "tilesets\\t_foreground\\t_foreground.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "ec0088bc-f44a-4234-94d2-8ffd2efcad91",
+            "Value": {
+                "id": "5d6a74d2-6900-4845-bc35-9f304b32ccce",
+                "resourcePath": "scripts\\tile_collide_at_points\\tile_collide_at_points.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "5abfdc04-b202-4243-84b5-3e543bb44fc2",
@@ -337,6 +353,7 @@
     ],
     "script_order": [
         "b03d19ea-45d5-4985-9469-1997ebf79e57",
+        "ec0088bc-f44a-4234-94d2-8ffd2efcad91",
         "2e0c558d-d737-4115-9251-f68c1abbf071",
         "079b8195-169b-42d1-9dc9-38b621a54d5a",
         "8c3e381c-e05d-455d-a696-275d67c583af",

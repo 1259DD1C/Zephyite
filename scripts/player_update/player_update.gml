@@ -1,25 +1,71 @@
-//player.update is called within obj_player.step event 
+player_input(0);
 
-//get input for movement. 
-var _dx = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var x_input = (move_right - move_left) * acceleration_x;
+var y_input = (move_down - move_up) * acceleration_y;
+var diag = x_input != 0 && y_input != 0;
+//if sign(diag != 0) {global.max_velocity_ =[256,256]}else{global.max_velocity_ = [320,320]}
 
-vx+=_dx * accel;
-vx = clamp(vx,-2,2);
-x+=vx;
-vx*=0.9;
+// Vector variables
+var vector2_x = 0;
+var vector2_y = 1;
+// Horizontal and Vertical Movement
+velocity_[vector2_x] = clamp(velocity_[vector2_x]+x_input, -max_velocity_[vector2_x], max_velocity_[vector2_x]);
+velocity_[vector2_y] = clamp(velocity_[vector2_y]+y_input, -max_velocity_[vector2_y], max_velocity_[vector2_y]);
+// Friction
+if (x_input==0) velocity_[vector2_x] = lerp(velocity_[vector2_x], 0, .2);
+if (y_input==0)	velocity_[vector2_y] = lerp(velocity_[vector2_y], 0, .2);
+// Gravity
+//velocity_[vector2_y] += gravity_;
+// Move and contact tiles
+move_and_contact_tiles(collision_tile_map_id_, 32, velocity_);
+//restricts the player to room width and height
+obj_player.x = min(x, room_width);
+obj_player.y = min(y, room_height);
+obj_player.x = max(x. room_width);
+obj_player.y = max(y, room_height);
 
 
-vy+=0.9;
 
-//Jumping
-if(y==start_y && keyboard_check(vk_space)){
-	vy=-12;	
-}
 
-y+=vy;
-if(y>start_y){
-	y=start_y;
-	vy=0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////player.update is called within obj_player.step event 
+////get input for movement. 
+//var _dx = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+
+//vx+=_dx * accel;
+//vx = clamp(vx,-2,2);
+//x+=vx;
+//vx*=0.9;
+
+
+//vy+=0.9;
+
+////Jumping
+//if(y==start_y && keyboard_check(vk_space)){
+//	vy=-12;	
+//}
+
+//y+=vy;
+//if(y>start_y){
+//	y=start_y;
+//	vy=0;
+//}
 
 
