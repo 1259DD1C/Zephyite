@@ -15,8 +15,8 @@ var vector2_y = 1;
 velocity_[vector2_x] = clamp(velocity_[vector2_x]+x_input, -max_velocity_[vector2_x], max_velocity_[vector2_x]);
 velocity_[vector2_y] = clamp(velocity_[vector2_y]+y_input, -max_velocity_[vector2_y], max_velocity_[vector2_y]);
 // Friction
-if (x_input==0) velocity_[vector2_x] = lerp(velocity_[vector2_x], 0, .2);
-if (y_input==0)	velocity_[vector2_y] = lerp(velocity_[vector2_y], 0, .2);
+if (x_input==0) velocity_[vector2_x] = lerp(velocity_[vector2_x], 0, player_friction);
+if (y_input==0)	velocity_[vector2_y] = lerp(velocity_[vector2_y], 0, player_friction);
 // Gravity // commented out as this is topdown not platformer
 //velocity_[vector2_y] += gravity_;
 // Move and contact tiles
