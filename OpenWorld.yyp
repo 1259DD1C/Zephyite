@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "46f5f79a-73d7-4243-b7c8-2d426c643514",
+            "Value": {
+                "id": "af1a84e2-753d-4f15-b1f8-8426caa6ccb7",
+                "resourcePath": "sprites\\spr_bush\\spr_bush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5177e6cf-26d0-46a7-b414-80b8376e88e9",
             "Value": {
                 "id": "34c6b14d-6703-45ed-bd26-caf4221dfd32",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "8b7b2b41-7c61-4a77-ba9b-3bd97ffed6bc",
+            "Value": {
+                "id": "9a43ad2c-931c-4c5e-8b1d-a687fd4af928",
+                "resourcePath": "scripts\\bush_create\\bush_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8c3e381c-e05d-455d-a696-275d67c583af",
             "Value": {
                 "id": "31ad648c-f5a1-4c67-9fb3-2fc0f7f08f91",
@@ -215,11 +231,27 @@
             }
         },
         {
+            "Key": "aa07f5de-5e9b-4b75-9c29-ddcf65d417aa",
+            "Value": {
+                "id": "c30de6a8-0836-413e-a333-980c929cf300",
+                "resourcePath": "scripts\\bush_render\\bush_render.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "adc363db-a98a-4a2f-b5c5-24e28c087b33",
             "Value": {
                 "id": "f7673aaa-5f03-40fb-bd6f-de8169890e7b",
                 "resourcePath": "rooms\\room01\\room01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "aeee0640-72ca-410d-b67d-863771ce620d",
+            "Value": {
+                "id": "567382cd-c5d1-47dd-a095-d6668161e8e1",
+                "resourcePath": "objects\\obj_bush\\obj_bush.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -335,6 +367,14 @@
             }
         },
         {
+            "Key": "e446567a-6667-4408-a13e-0bae657f7576",
+            "Value": {
+                "id": "9dcf6f80-c958-40da-ab95-8848f45a8e32",
+                "resourcePath": "scripts\\bush_update\\bush_update.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ec0088bc-f44a-4234-94d2-8ffd2efcad91",
             "Value": {
                 "id": "5d6a74d2-6900-4845-bc35-9f304b32ccce",
@@ -348,6 +388,14 @@
                 "id": "5abfdc04-b202-4243-84b5-3e543bb44fc2",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f67064b8-c492-4a6c-a7d1-d872e07fda70",
+            "Value": {
+                "id": "33d24b06-f771-4637-8f4a-ee357bfb8b4a",
+                "resourcePath": "views\\f67064b8-c492-4a6c-a7d1-d872e07fda70.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -365,7 +413,10 @@
         "2e0c558d-d737-4115-9251-f68c1abbf071",
         "079b8195-169b-42d1-9dc9-38b621a54d5a",
         "8c3e381c-e05d-455d-a696-275d67c583af",
-        "43ba8fdb-298e-488c-b979-d49290be7e2b"
+        "43ba8fdb-298e-488c-b979-d49290be7e2b",
+        "aa07f5de-5e9b-4b75-9c29-ddcf65d417aa",
+        "8b7b2b41-7c61-4a77-ba9b-3bd97ffed6bc",
+        "e446567a-6667-4408-a13e-0bae657f7576"
     ],
     "tutorial": ""
 }
