@@ -24,5 +24,6 @@ move_and_contact_tiles(collision_tile_map_id_, 32, velocity_);
 //restricts the player to room width and height
 obj_player.x = min(x, room_width);
 obj_player.y = min(y, room_height);
-obj_player.x = max(x, room_width);
-obj_player.y = max(y, room_height);
+//obj_player.x = max(x, room_width);
+//obj_player.y = max(y, room_height);
+
