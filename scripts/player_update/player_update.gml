@@ -1,5 +1,8 @@
 player_input(0);
 
+// end game button.
+if(act_esc){ game_end(); } 
+
 var x_input = (move_right - move_left) * acceleration_x;
 var y_input = (move_down - move_up) * acceleration_y;
 var diag = x_input != 0 && y_input != 0;
@@ -14,7 +17,7 @@ velocity_[vector2_y] = clamp(velocity_[vector2_y]+y_input, -max_velocity_[vector
 // Friction
 if (x_input==0) velocity_[vector2_x] = lerp(velocity_[vector2_x], 0, .2);
 if (y_input==0)	velocity_[vector2_y] = lerp(velocity_[vector2_y], 0, .2);
-// Gravity
+// Gravity // commented out as this is topdown not platformer
 //velocity_[vector2_y] += gravity_;
 // Move and contact tiles
 move_and_contact_tiles(collision_tile_map_id_, 32, velocity_);

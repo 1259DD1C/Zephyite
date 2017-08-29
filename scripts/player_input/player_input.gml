@@ -19,7 +19,7 @@ if (gamepad_is_connected(dvc)){
 	act_attack = gamepad_button_check_pressed(dvc,gp_face4);
 }
 
-// controls
+// controls ; self explanatory
 move_up = keyboard_check(ord("W"));
 move_down = keyboard_check(ord("S"));
 move_left = keyboard_check(ord("A"));

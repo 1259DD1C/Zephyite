@@ -6,7 +6,8 @@
     "children": [
         "d23b905a-6cdb-44e3-8e21-23c9bae68941",
         "4022a0ef-eb1a-40f3-944a-553c123fc5f4",
-        "c0fd9f11-d78f-4384-b235-d46e82ae7fbb"
+        "c0fd9f11-d78f-4384-b235-d46e82ae7fbb",
+        "9297e486-159f-4715-9b80-bbece8a0ef8c"
     ],
     "filterType": "GMSprite",
     "folderName": "Tilesets",
