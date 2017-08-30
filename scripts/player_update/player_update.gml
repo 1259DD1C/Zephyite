@@ -6,7 +6,11 @@ if(act_esc){ game_end(); }
 var x_input = (move_right - move_left) * acceleration_x;
 var y_input = (move_down - move_up) * acceleration_y;
 var diag = x_input != 0 && y_input != 0;
-//if sign(diag != 0) {global.max_velocity_ =[256,256]}else{global.max_velocity_ = [320,320]}
+if sign(diag != 0) {
+	max_velocity_ =[3,3]
+} else {
+	max_velocity_ = [3,3]
+	}
 
 // Vector variables
 var vector2_x = 0;
@@ -24,6 +28,5 @@ move_and_contact_tiles(collision_tile_map_id_, 32, velocity_);
 //restricts the player to room width and height
 obj_player.x = min(x, room_width);
 obj_player.y = min(y, room_height);
-//obj_player.x = max(x, room_width);
-//obj_player.y = max(y, room_height);
+//just use clamp instead ^ (UPGRADE)
 
