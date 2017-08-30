@@ -16,7 +16,7 @@ velocity_[vector2_x] = clamp(velocity_[vector2_x]+x_input, -max_velocity_[vector
 velocity_[vector2_y] = clamp(velocity_[vector2_y]+y_input, -max_velocity_[vector2_y], max_velocity_[vector2_y]);
 // Friction
 if (x_input==0) velocity_[vector2_x] = lerp(velocity_[vector2_x], 0, player_friction);
-if (y_input==0)	velocity_[vector2_y] = lerp(velocity_[vector2_y], 0, player_friction);
+if (y_input==0)    velocity_[vector2_y] = lerp(velocity_[vector2_y], 0, player_friction);
 // Gravity // commented out as this is topdown not platformer
 //velocity_[vector2_y] += gravity_;
 // Move and contact tiles
@@ -26,4 +26,3 @@ obj_player.x = min(x, room_width);
 obj_player.y = min(y, room_height);
 //obj_player.x = max(x, room_width);
 //obj_player.y = max(y, room_height);
-
