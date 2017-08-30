@@ -1,7 +1,5 @@
 /// @param sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha, image_xskew, image_yskew
-//This give us the function : draw_sprite_skew_ext()
-//thus essentialy redraws a cube by drawing two triangles to make a cube.
-//allowing for manipulation for animations without animating
+
 var sprite   = argument0; 
 var index    = argument1;
 var xx       = argument2;

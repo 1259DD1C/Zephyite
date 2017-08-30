@@ -1,33 +1,43 @@
 {
-    "id": "e0882a76-4c4f-4d82-9c22-25c9789562b2",
+    "id": "d6217f07-159c-4d87-a4a5-52c8ac6ea461",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player",
+    "name": "obj_grass",
     "eventList": [
         {
-            "id": "50ae6ff9-71e1-4fb2-a52c-4189d9ba87ed",
+            "id": "d2a42a2f-8f36-408a-aa5d-8fccd8c80941",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e0882a76-4c4f-4d82-9c22-25c9789562b2"
+            "m_owner": "d6217f07-159c-4d87-a4a5-52c8ac6ea461"
         },
         {
-            "id": "80508d97-b469-41e6-8ac0-cf6b2b97f542",
+            "id": "0ed4c67b-5fa3-48dc-86a8-fff4316f557a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "e0882a76-4c4f-4d82-9c22-25c9789562b2"
+            "m_owner": "d6217f07-159c-4d87-a4a5-52c8ac6ea461"
+        },
+        {
+            "id": "078b3ec6-93a8-4402-b1e0-061934970a6f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "d6217f07-159c-4d87-a4a5-52c8ac6ea461"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -41,6 +51,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "6807a29e-cae5-4e27-89ea-e09c8b77c85a",
+    "spriteId": "46f5f79a-73d7-4243-b7c8-2d426c643514",
     "visible": true
 }
