@@ -40,22 +40,22 @@ obj_player.y = min(y, room_height);
 var playerAngle;
 playerAngle = point_direction(x,y,mouse_x,mouse_y);
 if  (playerAngle > 45) && (playerAngle < 135)&& pstates != pstates.attacking {
-		sprite_index=spr_PlayerUp;
+		//sprite_index=spr_PlayerUp;
 		dir = "Up";
 		//pstates = pstates.moving;
 }
 if (playerAngle > 135) && (playerAngle < 225) && pstates != pstates.attacking {
-		sprite_index=spr_PlayerLeft;
+		//sprite_index=spr_PlayerLeft;
 		dir = "Left";
 		//pstates = pstates.moving;
 }
 if (playerAngle > 225) && (playerAngle < 315) && pstates != pstates.attacking {
-		sprite_index=spr_PlayerDown;
+		//sprite_index=spr_PlayerDown;
 		dir = "Down";
 		//pstates = pstates.moving;
 }
 if (playerAngle < 315) && (playerAngle < 45) && pstates != pstates.attacking{
-		sprite_index=spr_PlayerRight;
+		//sprite_index=spr_PlayerRight;
 		dir = "Right";
 		//pstates = pstates.moving;
 }
