@@ -1,0 +1,1 @@
+targetRoom = level2;

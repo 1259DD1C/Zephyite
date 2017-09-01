@@ -11,7 +11,7 @@ var diag = x_input != 0 && y_input != 0;
 if (x_input != 0 || y_input != 0) { pstates = pstates.moving; }
 
 if sign(diag != 0) {
-	max_velocity_ =[3,3]
+	max_velocity_ =[2,2]
 } else {
 	max_velocity_ = [3,3]
 	}
