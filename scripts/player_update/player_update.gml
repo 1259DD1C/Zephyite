@@ -37,15 +37,16 @@ obj_player.y = min(y, room_height);
 
 // This handles animation, direction setting etc. 
 //Look towards mouse
-var playerAngle;
-playerAngle = point_direction(x,y,mouse_x,mouse_y);
+
+var playerAngle = point_direction(x,y,mouse_x,mouse_y);
 if  (playerAngle > 45) && (playerAngle < 135)&& pstates != pstates.attacking {
 		//sprite_index=spr_PlayerUp;
 		dir = "Up";
 		//pstates = pstates.moving;
 }
 if (playerAngle > 135) && (playerAngle < 225) && pstates != pstates.attacking {
-		//sprite_index=spr_PlayerLeft;
+		sprite_index = spr_player;
+		image_xscale = -1;
 		dir = "Left";
 		//pstates = pstates.moving;
 }
@@ -55,9 +56,28 @@ if (playerAngle > 225) && (playerAngle < 315) && pstates != pstates.attacking {
 		//pstates = pstates.moving;
 }
 if (playerAngle < 315) && (playerAngle < 45) && pstates != pstates.attacking{
-		//sprite_index=spr_PlayerRight;
+		sprite_index = spr_player;
+		image_xscale = 1;
 		dir = "Right";
 		//pstates = pstates.moving;
 }
 
 
+
+//Attack
+var dist =  32;  //however far the slash needs to appear from the Player
+// Create slash if mousebutton pressed.
+if (canattack) {
+	if (act_attack){
+	canattack = false;
+	alarm[0] = room_speed/2;
+	var xx = x + lengthdir_x(dist, playerAngle);
+	var yy = y + lengthdir_y(dist, playerAngle);
+	var s = instance_create_layer(xx, yy, "Instances", obj_collisionbox_sword);
+	s.image_angle = playerAngle;
+	}
+}
+//if(act_attack){
+//	var s = instance_create_layer(xx, yy, "Instances", obj_collisionbox_sword);
+//	s.image_angle = playerAngle;
+//}

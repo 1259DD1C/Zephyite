@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "1ada37f9-21a6-4975-b841-4f1cebf20bf4",
+            "Value": {
+                "id": "fd05f24a-30bf-4231-adf5-4e698b8acaba",
+                "resourcePath": "sprites\\spr_collisionbox_sword\\spr_collisionbox_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1d79ebb5-73b0-4ab8-94ad-06b599d0814c",
+            "Value": {
+                "id": "7d5130d1-5fc3-4b2b-a088-240e509d58cf",
+                "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "202cd734-5589-4d60-a580-79bd62ba060a",
             "Value": {
                 "id": "4e4fbbdb-ee32-47f9-82c8-4dd096ceaee6",
@@ -367,6 +383,22 @@
             }
         },
         {
+            "Key": "d2933651-997b-482d-b5bb-acab77dde309",
+            "Value": {
+                "id": "fd154209-e2f1-4ec8-9338-f3da480965e5",
+                "resourcePath": "objects\\obj_parent_enemy\\obj_parent_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4bfc0f6-cf0e-4d60-9863-6b9d3370eee2",
+            "Value": {
+                "id": "c2db1888-971a-4c77-9daa-da2af2d0063f",
+                "resourcePath": "objects\\obj_collisionbox_sword\\obj_collisionbox_sword.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6217f07-159c-4d87-a4a5-52c8ac6ea461",
             "Value": {
                 "id": "476d6041-ac91-4e69-8362-e1f1e3b3b7d0",
@@ -442,8 +474,8 @@
     "script_order": [
         "b03d19ea-45d5-4985-9469-1997ebf79e57",
         "ec0088bc-f44a-4234-94d2-8ffd2efcad91",
-        "2e0c558d-d737-4115-9251-f68c1abbf071",
         "079b8195-169b-42d1-9dc9-38b621a54d5a",
+        "2e0c558d-d737-4115-9251-f68c1abbf071",
         "8c3e381c-e05d-455d-a696-275d67c583af",
         "43ba8fdb-298e-488c-b979-d49290be7e2b",
         "aa07f5de-5e9b-4b75-9c29-ddcf65d417aa",
