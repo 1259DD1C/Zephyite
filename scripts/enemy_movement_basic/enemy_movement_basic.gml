@@ -6,12 +6,12 @@ death_anim = argument1;
 //death
 
 if (state == "death"){
-	sprite_index = asset_get_index(death_anim);
+	sprite_index = death_anim;
 	image_speed=5;
 	if (image_index > image_number - 1) instance_destroy();
 }else{
 	//sprite_index = asset_get_index("spr_MonsterSkele"+string(dir));
-	sprite_index = asset_get_index(normal_idle);
+	sprite_index = normal_idle;
 // Run that sexy death animation
 if(hp<1) state = "death";
 
