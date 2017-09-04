@@ -1,12 +1,5 @@
-randomize();
+//enemy_create_basic(chasespeed,walkspeed,hp)
+enemy_create_basic(1,0.5,5);
 
-xspd = 0;
-yspd = 0;
-dir = 270;
-state = "idle";
-dist_to_col = 8;
-checkcol = "none";
-pos_to_player = 0;
-hp = 5;
-chasespeed = 0.5;
-walkspeed = 1;
+// I will be redoing how the collisionbox for attacks work and therefore health
+// will be changing but atm it's fine. 

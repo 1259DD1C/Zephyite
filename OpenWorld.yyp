@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "8ac71ea8-33da-474b-a417-0660589725e8",
+            "Value": {
+                "id": "694578e9-a76a-4105-bcdf-077cdafef7ed",
+                "resourcePath": "scripts\\enemy_movement_basic\\enemy_movement_basic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8b7b2b41-7c61-4a77-ba9b-3bd97ffed6bc",
             "Value": {
                 "id": "9a43ad2c-931c-4c5e-8b1d-a687fd4af928",
@@ -332,6 +340,22 @@
                 "id": "77399aa1-f66d-481b-b043-7cad133cddb6",
                 "resourcePath": "scripts\\move_and_contact_tiles\\move_and_contact_tiles.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b284cd7e-03c8-4e0d-9c8f-3d943a641557",
+            "Value": {
+                "id": "bf4ae301-26c8-41b4-8beb-164e37a8dd6a",
+                "resourcePath": "scripts\\enemy_create_basic\\enemy_create_basic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b574623c-5966-4913-8c45-e231eb51057c",
+            "Value": {
+                "id": "49c9bc8e-9ca5-428a-8c74-e7af46b7d40d",
+                "resourcePath": "views\\b574623c-5966-4913-8c45-e231eb51057c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -520,7 +544,9 @@
         "43ba8fdb-298e-488c-b979-d49290be7e2b",
         "aa07f5de-5e9b-4b75-9c29-ddcf65d417aa",
         "e446567a-6667-4408-a13e-0bae657f7576",
-        "8b7b2b41-7c61-4a77-ba9b-3bd97ffed6bc"
+        "8b7b2b41-7c61-4a77-ba9b-3bd97ffed6bc",
+        "8ac71ea8-33da-474b-a417-0660589725e8",
+        "b284cd7e-03c8-4e0d-9c8f-3d943a641557"
     ],
     "tutorial": ""
 }
