@@ -1,0 +1,38 @@
+These are notes for myself and potential snippets of code I intend to use for reference or implement
+
+// Decideing xp
+var _x1 = view_wport[0]/2 - sprite_get_width(spr_xp_bar)/2 + 13
+var _x2 = view_wport[0]/2 + sprite_get_width(spr_xp_bar)/2 - 13
+var _y1 = view_hport[0] - 100 - sprite_get_height(spr_xp_bar)/2 + 15
+var _y2 = view_hport[0] - 100 + sprite_get_height(spr_xp_bar)/2 - 15
+xpP = xp - previousLevel
+var _px = xpP/nextLevel
+_px = min(_px,1);
+if _px = 1
+{    
+    previousLevel = nextLevel;
+    nextLevel *= 2.5
+    var _px = xpP - previousLevel/nextLevel
+    level += 1;
+    _px = min(_px,1);
+}
+if level < 3
+{
+var _xAmmount = min(100*_px,100)
+}
+else
+{
+_xAmmount = min(100*_px,100) -16
+}
+
+// Drawing xp
+
+draw_healthbar(_x1,_y1,_x2,_y2,_xAmmount,c_white,c_lime,c_lime,0,true,false)
+draw_sprite(spr_xp_bar,1,view_wport[0]/2,view_hport[0] - 100);
+draw_set_font(ft_changa);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_text(view_wport[0]/2,view_hport[0] - 160,"You are a " + teir);
+draw_set_color($3F3F3F)
+draw_set_font(ft_changa_small);
+draw_text(view_wport[0]/2,view_hport[0] - 100,/*string(nextLevel - xp) + "xp (" + */string(round(100-_xAmmount)) + "% left");

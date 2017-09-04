@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "1359a37e-892d-45c0-81c2-055a3e35e7cb",
+            "Value": {
+                "id": "7457043c-6701-4a3a-8be9-84d38ded9ca0",
+                "resourcePath": "objects\\obj_fam_collisions\\obj_fam_collisions.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "13f8a7f8-7b78-458e-b028-3ca2c27b7f56",
+            "Value": {
+                "id": "a7fd8409-ab19-4167-bd28-b608399cfbfc",
+                "resourcePath": "views\\13f8a7f8-7b78-458e-b028-3ca2c27b7f56.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1a16253c-f9f9-47dd-9540-60015be1c8a2",
             "Value": {
                 "id": "9676687b-b16b-448a-9d5a-4117bc38ac2f",
@@ -132,6 +148,14 @@
                 "id": "af1a84e2-753d-4f15-b1f8-8426caa6ccb7",
                 "resourcePath": "sprites\\spr_bush\\spr_bush.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4af62e10-f399-4d48-81dd-a26a7d016a39",
+            "Value": {
+                "id": "a776a2bd-197f-418c-ad1e-3d7495b65c49",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -236,6 +260,14 @@
                 "id": "31ad648c-f5a1-4c67-9fb3-2fc0f7f08f91",
                 "resourcePath": "scripts\\player_input\\player_input.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8facce11-6739-451e-881c-172b6dc98b95",
+            "Value": {
+                "id": "28cfaf78-1abb-4a65-80b2-cd3210db3b21",
+                "resourcePath": "sprites\\spr_enemy_slime\\spr_enemy_slime.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -436,6 +468,14 @@
                 "id": "9dcf6f80-c958-40da-ab95-8848f45a8e32",
                 "resourcePath": "scripts\\grass_update\\grass_update.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ea313b4e-4ab5-4e93-a4fb-1e41e819147e",
+            "Value": {
+                "id": "6602324e-da3c-43b8-a299-8f0c957a3b6e",
+                "resourcePath": "objects\\obj_enemy_slime\\obj_enemy_slime.yy",
+                "resourceType": "GMObject"
             }
         },
         {
