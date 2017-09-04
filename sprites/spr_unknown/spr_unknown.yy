@@ -2,7 +2,7 @@
     "id": "1ada37f9-21a6-4975-b841-4f1cebf20bf4",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_collisionbox_sword",
+    "name": "spr_unknown",
     "For3D": false,
     "HTile": false,
     "VTile": false,
