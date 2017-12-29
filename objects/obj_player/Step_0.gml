@@ -53,30 +53,30 @@ if(global.playerHealth<=0){
 
 var playerAngle = point_direction(x,y,mouse_x,mouse_y);
 if  (playerAngle > 45) && (playerAngle < 135)&& pstates != pstates.attacking {
-		//sprite_index=spr_PlayerUp;
+		sprite_index= spr_player_up;
 		mousedir = "Up";
 		//pstates = pstates.moving;
 }
 if (playerAngle > 135) && (playerAngle < 225) && pstates != pstates.attacking {
-		sprite_index = spr_player;
+		sprite_index = spr_player_right;
 		image_xscale = -1;
 		mousedir = "Left";
 		//pstates = pstates.moving;
 }
 if (playerAngle > 225) && (playerAngle < 315) && pstates != pstates.attacking {
-		//sprite_index=spr_PlayerDown;
+		sprite_index= spr_player_down;
 		mousedir = "Down";
 		//pstates = pstates.moving;
 }
 if (playerAngle < 315) && (playerAngle < 45) && pstates != pstates.attacking{
-		sprite_index = spr_player;
+		sprite_index = spr_player_right;
 		image_xscale = 1;
 		mousedir = "Right";
 		//pstates = pstates.moving;
 }
 
 //Attack
-var dist =  16;  //however far the slash needs to appear from the Player
+var dist =  32;  //however far the slash needs to appear from the Player
 // Create slash if mousebutton pressed.
 if (canattack) {
 	if (act_spacebar){

@@ -20,7 +20,7 @@ mousedir = "down"; // set player direction ; diffuses set error.
 // Vector variables
 velocity_ = [0, 0]; // base velocity the player starts with
 max_velocity_ = [0 , 0]; // setting up velocity
-max_velocity_original = 0.7; // max player speed.
+max_velocity_original = 2; // max player speed.
 max_velocity_diag = (max_velocity_original/(sqrt(2)));
 
 //what t_layer does the player collide with?
