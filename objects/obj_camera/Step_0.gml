@@ -49,4 +49,10 @@ camera_set_view_pos(view_camera[0], new_x, new_y);
 -Set to interpolation rate - makes it easier to change later
 -Figure out what the new sizes should by interpolating the current view size to the original size, multiplied by the zoom level
 -Update the view size
-/*
+*/
+
+playerHealthDrawXValue = max((2 * global.playerHealth),0);
+//Inputmana also.
+//input stamina also.
+
+

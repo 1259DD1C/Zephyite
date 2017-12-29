@@ -1,0 +1,1 @@
+global.playerHealth -= 0.6;

@@ -32,4 +32,5 @@ act_console = keyboard_check(ord("`"));
 act_tab = keyboard_check(ord("TAB"));
 act_esc = keyboard_check_pressed(vk_escape);
 act_shift = keyboard_check_pressed(vk_lshift);
+act_spacebar = keyboard_check_pressed(vk_space);
 

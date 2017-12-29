@@ -1,0 +1,1 @@
+monster_type = obj_enemy_slime; 

@@ -3,12 +3,17 @@
 
 normal_idle = argument0;
 death_anim = argument1;
+side_anim = argument2;
+up_anim = argument3;
+
 //death
 
 if (state == "death"){
 	sprite_index = death_anim;
-	image_speed=5;
-	if (image_index > image_number - 1) instance_destroy();
+	image_speed=0.2;
+	draw_sprite(spr_bones,0,x,y);
+	if (image_index > image_number - 1) instance_destroy();// Need to fix since it relies on 1> frames of anim.
+
 }else{
 	//sprite_index = asset_get_index("spr_MonsterSkele"+string(dir));
 	sprite_index = normal_idle;
@@ -25,6 +30,9 @@ if (state == "idle")||(state == "walk"){
 		
 	}
 }
+
+monsterHpDrawXValue = max((2 * hp),0); 
+
 
 //ai walk and check collisions
 
@@ -100,6 +108,8 @@ if (checkColDown==0){
 			if (state == "walk"){
 			yspd = walkspeed;
 			y = y-yspd;
+			image_index = side_anim;
+			image_xscale = 1;
 			}
 			}
 			if (state == "chase"){
@@ -117,6 +127,8 @@ if (checkColDown==0){
 			if (state == "walk"){
 			state = "idle";
 			checkcol = "right";
+			image_index = side_anim;
+			image_xscale = 1;
 			}
 		} 
 
@@ -128,6 +140,8 @@ if (checkColDown==0){
 			if (state == "walk"){
 			xspd = walkspeed;
 			x = x-xspd;
+			image_index = side_anim;
+			image_xscale = -1;
 			}
 			}
 			if (state == "chase"){
@@ -252,6 +266,5 @@ if (state == "chase"){
 }
 
 }
-
 
 
