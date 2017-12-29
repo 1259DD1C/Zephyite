@@ -1,1 +1,0 @@
-targetRoom = cave1;
