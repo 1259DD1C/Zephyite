@@ -1,1 +1,1 @@
-monster_type = obj_enemy_slime; 
+monster_type = obj_enemy_crab; 

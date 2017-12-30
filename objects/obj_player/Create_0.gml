@@ -5,8 +5,8 @@ enum pstates {
 	idle, 
 }
 pstates = pstates.moving; // set original state ( we don't need idle ) yet
-global.playerMana = 100;
-global.playerHealth = 100;
+global.playerMana = 20;
+global.playerHealth = 5;
 maxmana = global.playerMana;
 maxhealth = global.playerHealth;
 canattack = true; // need to set before reading it.

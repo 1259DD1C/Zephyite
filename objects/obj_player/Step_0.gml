@@ -45,7 +45,7 @@ obj_player.y = min(y, room_height);//Fix this (upgreade)
 if(global.playerHealth<=0){
 	x = obj_active_checkpoint.x;
 	y = obj_active_checkpoint.y;
-	global.playerHealth += 100;
+	global.playerHealth += maxhealth;
 }
 
 // This handles animation, direction setting etc. 
@@ -54,6 +54,7 @@ if(global.playerHealth<=0){
 var playerAngle = point_direction(x,y,mouse_x,mouse_y);
 if  (playerAngle > 45) && (playerAngle < 135)&& pstates != pstates.attacking {
 		sprite_index= spr_player_up;
+		image_xscale = 1;
 		mousedir = "Up";
 		//pstates = pstates.moving;
 }
@@ -65,6 +66,12 @@ if (playerAngle > 135) && (playerAngle < 225) && pstates != pstates.attacking {
 }
 if (playerAngle > 225) && (playerAngle < 315) && pstates != pstates.attacking {
 		sprite_index= spr_player_down;
+		image_xscale = 1;
+		mousedir = "Down";
+		//pstates = pstates.moving;		
+if (playerAngle > 225) && (playerAngle < 315) && pstates != pstates.attacking {
+		sprite_index= spr_player_down;
+		image_xscale = 1;
 		mousedir = "Down";
 		//pstates = pstates.moving;
 }

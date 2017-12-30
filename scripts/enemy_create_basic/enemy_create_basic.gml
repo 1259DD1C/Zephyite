@@ -11,6 +11,6 @@ state = "idle";
 dist_to_col = 1;
 checkcol = "none";
 pos_to_player = 0;
-hp = 5;
+hp = argument2;
 chasespeed = 0.5;
 walkspeed = 0.25;

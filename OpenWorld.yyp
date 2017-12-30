@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04242398-a882-4bb3-bb48-8694b761ccb7",
+            "Value": {
+                "id": "204c5183-d714-4476-9c2d-71ffc68ab614",
+                "resourcePath": "views\\04242398-a882-4bb3-bb48-8694b761ccb7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0bf7a9aa-f05e-45a1-b892-6db813bd075b",
             "Value": {
                 "id": "71ce919a-c8fc-46f8-b31c-6f0b035a3112",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "73bc688a-c214-45db-a368-e6486600dea2",
+            "Value": {
+                "id": "fafc18a5-fa0c-47e8-8bc9-eae53eca5ba2",
+                "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "750f3cff-3719-4aa4-9f49-eb51069870a7",
             "Value": {
                 "id": "45d11fa7-26d2-4f97-a799-9c2884171f03",
@@ -299,6 +315,14 @@
             "Value": {
                 "id": "e34cbe73-7465-4944-9fcf-e1dec53ea569",
                 "resourcePath": "views\\83104cea-a081-4443-bd8b-73241adc9459.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8608f3f0-5a14-436a-9737-e2514b0be089",
+            "Value": {
+                "id": "9d8b05cc-53ec-4503-b6ba-0af997b1d1b5",
+                "resourcePath": "views\\8608f3f0-5a14-436a-9737-e2514b0be089.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -618,7 +642,7 @@
             "Key": "ea313b4e-4ab5-4e93-a4fb-1e41e819147e",
             "Value": {
                 "id": "6602324e-da3c-43b8-a299-8f0c957a3b6e",
-                "resourcePath": "objects\\obj_enemy_slime\\obj_enemy_slime.yy",
+                "resourcePath": "objects\\obj_enemy_crab\\obj_enemy_crab.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -652,14 +676,6 @@
                 "id": "6749a3b1-6ab6-46a6-b6bc-e08264dae86b",
                 "resourcePath": "views\\fa4dbb95-0948-4edc-adea-9043cf3dc914.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ff2d103e-42f1-4b7b-bf22-08f23bcf6b18",
-            "Value": {
-                "id": "9f07b08b-44aa-489a-9904-a659a89c43a8",
-                "resourcePath": "objects\\obj_enemy_crab\\obj_enemy_crab.yy",
-                "resourceType": "GMObject"
             }
         }
     ],
