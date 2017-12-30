@@ -21,8 +21,7 @@ if (x_input && y_input != 0){
 }
 
 if(act_shift){
-	
-
+ // add sprinting here plox (also depletes mana) 
 }
 
 var vector2_x = 0;
@@ -64,16 +63,17 @@ if (playerAngle > 135) && (playerAngle < 225) && pstates != pstates.attacking {
 		mousedir = "Left";
 		//pstates = pstates.moving;
 }
-if (playerAngle > 225) && (playerAngle < 315) && pstates != pstates.attacking {
+if (playerAngle > 270) && (playerAngle < 315) && pstates != pstates.attacking {
 		sprite_index= spr_player_down;
 		image_xscale = 1;
 		mousedir = "Down";
 		//pstates = pstates.moving;		
-if (playerAngle > 225) && (playerAngle < 315) && pstates != pstates.attacking {
+}
+if (playerAngle > 225) && (playerAngle < 270) && pstates != pstates.attacking {
 		sprite_index= spr_player_down;
-		image_xscale = 1;
+		image_xscale = -1; // This one is down and to the right
 		mousedir = "Down";
-		//pstates = pstates.moving;
+		//pstates = pstates.moving; 
 }
 if (playerAngle < 315) && (playerAngle < 45) && pstates != pstates.attacking{
 		sprite_index = spr_player_right;
@@ -95,6 +95,7 @@ if (canattack) {
 	s.image_angle = playerAngle;
 	}
 }
+
 //if(act_attack){
 //	var s = instance_create_layer(xx, yy, "Instances", obj_collisionbox_sword);
 //	s.image_angle = playerAngle;
