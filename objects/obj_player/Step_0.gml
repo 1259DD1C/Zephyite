@@ -17,7 +17,7 @@ if (x_input && y_input != 0){
 	max_velocity_[1] = max_velocity_diag;
 } else {
 	max_velocity_[0] = max_velocity_original
-	max_velocity_[1] = max_velocity_diag;
+	max_velocity_[1] = max_velocity_original;
 }
 
 if(act_shift){
