@@ -44,7 +44,7 @@ obj_player.y = min(y, room_height);//Fix this (upgreade)
 if(global.playerHealth<=0){
 	x = obj_active_checkpoint.x;
 	y = obj_active_checkpoint.y;
-	global.playerHealth += maxhealth;
+	global.playerHealth += global.playermaxhealth;
 }
 
 // This handles animation, direction setting etc. 

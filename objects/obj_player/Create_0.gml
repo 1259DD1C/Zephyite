@@ -8,8 +8,9 @@ pstates = pstates.moving; // set original state ( we don't need idle ) yet
 global.playerMana = 20;
 global.playerHealth = 5;
 maxmana = global.playerMana;
-maxhealth = global.playerHealth;
+global.playermaxhealth = global.playerHealth;
 canattack = true; // need to set before reading it.
+invincible = false; // need to set before reading it.
 
 //gravity_ = 0.2; Put here incase we want some downward effect.
 player_friction = 0.13; // used within the lerp function, smooths player movement

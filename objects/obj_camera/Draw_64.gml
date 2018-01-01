@@ -1,3 +1,9 @@
-draw_set_alpha(1);
-draw_set_color(c_red);
-draw_rectangle(40,40,playerHealthDrawXValue,70,0);
+for (var i = 0; i < global.playermaxhealth; i +=1;)
+{
+	draw_sprite(spr_heart,1,(x-16+(i*20)),y-32);
+}
+
+for (var i = 0; i <  global.playerHealth ; i +=1;)
+{
+    draw_sprite(spr_heart,2,(x-16+(i*20)),y-32);
+}
